@@ -1,0 +1,68 @@
+table {
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+}
+
+table input {
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+table input:focus {
+  outline: none;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 10%;
+  padding: 10px;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+.error {
+  color: red;
+}
+
+.correcto {
+  background-color: rgb(146, 255, 146);
+}
+
+.incorrecto {
+  background-color: rgb(255, 112, 112);
+}
+
+#form1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form1 div {
+  margin: 10px;
+}
+
+#form2 div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+}
